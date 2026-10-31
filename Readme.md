@@ -25,7 +25,12 @@ A simple, responsive registration form web page built using **HTML5** and **CSS3
 ├── index.html
 └── README.md 
 ---
-##*bash*
-git clone [https://github.com/zunairanadeemhi/your-repo-name.git](https://github.com/zunairanadeemhi/your-repo-name.git)
+##🚀How to Run
+
+1:Clone the repository or download the source code:
+bash
+ git clone [https://github.com/zunairanadeem-hi/Registration-form-using-html-and-css-.git](https://github.com/zunairanadeem-hi/Registration-form-using-html-and-css-.git)
+
+2:Open the index.html file in any modern web browser.
 
 
