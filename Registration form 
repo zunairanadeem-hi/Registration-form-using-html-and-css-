@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first program in css</title>
+    <style>
+        body{
+            /* background-image:url('getty.jfif');
+            background-repeat: no-repeat; */
+            background-color: antiquewhite;
+            background-size:75vw;
+        }
+        .container{
+            background-color: rgb(155, 185, 130);
+        }
+        h1{
+            display:flex;
+            justify-content: center;
+            background-color: rgb(194, 194, 17);
+        }
+        button{
+            border: black solid;
+            background-color: aqua;
+            color:rgb(9, 9, 10)
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+     <from action="from.php">
+        <label>
+            <h1>welcome to registration form</h1>
+            <b>personal information</b><br>
+            <input type="text" placeholder="enter your name">
+            <input type="password" placeholder="enter your password"><br>
+            <textarea name="feedback" placeholder="enter your address"></textarea><br>
+            <input type="number" placeholder="enter your phonenumber"><br>
+            <b>select your date of birth</b><br>
+            <input type="date" placeholder="enter your date of birth"><br>
+            <b>select your gender</b><br>
+            <input type="radio" value="male" name="gender" id="male">male
+            <input type="radio" value="female" name="gender" id="female">female<br>
+        </label>
+        <label>
+            <b>select your profile picture</b><br>
+            <input type="file" name="profile picture" value="picture" id="picture" accept="image/*">
+        </label><br>
+        <label>
+            <b>select your city</b><br>
+            <select name="city">
+                <option value="kamalia">kamalia</option>
+                <option value="karachi">karachi</option>
+                <option value="toba">toba</option>
+                <option value="lahore">lahore</option>
+            </select><br>
+        </label>
+        <label>
+            <b>select your completed eduation</b><br>
+            <input type="checkbox" name="section" value="intermediate" id="intermediate">intermediate
+            <input type="checkbox" name="section" value="graduate" id="graduate">graduate
+            <input type="checkbox" name="section" value="undergraduate" id="undergraduate">undergraduate<br>
+        </label>
+        <label>
+            <b>select your hobbies</b><br>
+            <input type="checkbox" name="hobbies" value="cricket" id="cricket">cricket
+            <input type="checkbox" name="hobbies" value="gradening" id="gradening">gradening
+            <input type="checkbox" name="hobbies" value="reading" id="reading">reading
+            <input type="checkbox" name="hobbies" value="gaming" id="gaming">gaming<br>
+        </label>
+        <label>
+            <b>select your option</b><br>
+            <input type="checkbox" name="agree" value="i agree with all these statement" id="i agree with all these statement">i agree with all these statement<br>
+             <input type="checkbox" name="agree" value="i don't agree with all these statement" id="i don't agree with all these statement">i don't agree with all these statement
+        </label><br>
+        <button>submit</button><br>
+        <button>reset</button>
+     </from>
+    </div>
+</body>
+</html>
