@@ -6,8 +6,11 @@ A simple, responsive registration form web page built using **HTML5** and **CSS3
 
  **Personal Information Fields:** Text input for name, secure password field, address textarea, and phone number input.
  **Demographics & Preferences:** Date of birth picker, radio buttons for gender selection, and file upload for profile pictures.
+
  **Dropdown Selection:** City selector featuring major cities (Kamalia, Karachi, Toba, Lahore).
+
  **Checkboxes:** Education level selection, hobbies, and terms/agreement checkboxes.
+
  **Custom Styling:** Styled container, centered header using CSS Flexbox, and customized buttons with custom color themes.
 
 ## 🛠️ Technologies Used
@@ -22,5 +25,5 @@ A simple, responsive registration form web page built using **HTML5** and **CSS3
 ├── index.html
 └── README.md 
 
-git clone [https://github.com/zunairanadeemhi/Registration form using html and css .git](https://github.com/zunairanadeemhi/Registration form using html and css.git)
+git clone [https://github.com/zunairanadeemhi/Registratioform.git](https://github.com/zunairanadeemhi/Registration form.git)
 
